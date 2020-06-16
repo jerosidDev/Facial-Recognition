@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0bdcfa99-e5fc-4407-be72-7465257dd879</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Facial_Recognition.py</StartupFile>
+    <StartupFile>facial_recognition_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,7 @@
     <Compile Include="Data_Manager.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Facial_Recognition.py" />
+    <Compile Include="facial_recognition_main.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="opencv_data\" />
