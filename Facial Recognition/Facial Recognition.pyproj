@@ -21,10 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Data_Manager.py">
+    <Compile Include="facial_recognition_main.py" />
+    <Compile Include="pre_input_training.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="facial_recognition_main.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="opencv_data\" />

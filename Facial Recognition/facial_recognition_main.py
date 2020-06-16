@@ -1,4 +1,4 @@
-from Data_Manager import addFaceData
+from pre_input_training import addFaceData
 
 while True:
 
