@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/Facial Recognition/v16/.suo
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/Facial Recognition/__pycache__/Data_Manager.cpython-37.pyc
