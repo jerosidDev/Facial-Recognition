@@ -18,7 +18,7 @@ I use OpenCV and a pre-trained model to first detect the face elements of a pict
 The pre-trained model is imperfect, so sometimes frames rendered are not faces. This will have to be reflected on the training set. 
 
 ## Inputs and Outputs of a model
-The inputs have to be consistent, they will be images of the same format representing the faces. So before each input, there will be a transformation of a selected frame (from the json training file) to a common image type. They are generated from the standardization process (rescaling + pixels normalization).
+The inputs have to be consistent, they will be images of the same format representing the faces. So before each input, there will be a transformation of a selected frame (from the json training file) to a common image type. They are generated from the standardization process (cropping, resizing, pixels normalization).
 The outputs will reflect the names of the persons to be recognized, or if it is an unknown person, or sometimes if it is not even a face.  
 
 ## Model training and optimization
