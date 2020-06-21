@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="facial_recognition_main.py" />
+    <Compile Include="input_standardization.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pre_input_training.py">
       <SubType>Code</SubType>
     </Compile>

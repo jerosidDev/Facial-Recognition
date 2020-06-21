@@ -1,6 +1,11 @@
 from pre_input_training import addFaceData
+from input_standardization import generateStandardInputs
 
 while True:
+
+    #generateStandardInputs()
+    #addFaceData()
+
 
     print("Options available")
     print("     1: Add training data")
@@ -13,6 +18,8 @@ while True:
 
     if optionSelected == "1":
         addFaceData();
+    if optionSelected == "2":
+        generateStandardInputs();
     elif optionSelected == "4":
         break;
     else:

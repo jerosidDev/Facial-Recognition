@@ -10,6 +10,11 @@ import json
 
 def addFaceData():
 
+    imgNamesStr = input("Enter the names of the people to be recognised, separated with commas:")
+    imgNames = [n.strip() for n in imgNamesStr.split(",")]
+    imgNames.extend(["Unknown","Not a face"])
+    
+    
     currentProjectDir = os.getcwd()
 
     imagePath = input("Enter the full path to the image:")
@@ -21,9 +26,7 @@ def addFaceData():
         print(f"incorrect path to image: {imagePath}")
         return
 
-    imgNamesStr = input("Which known faces were in the picture? Enter the names separated with commas:")
-    imgNames = [n.strip() for n in imgNamesStr.split(",")]
-    imgNames.extend(["Unknown","Not a face"])
+
 
     initialImage = cv.imread(imagePath,cv.IMREAD_UNCHANGED);
 
